@@ -1,0 +1,16 @@
+LAYOUT(FootballLayout, 436, 188)
+END_LAYOUT
+
+LAYOUT(GameProperties, 412, 184)
+	ITEM(EditIntSpin, halfHeight, Max(30).Min(2).NotNull(true).LeftPosZ(176, 204).TopPosZ(53, 15))
+	ITEM(EditIntSpin, halfWidth, Max(30).Min(2).NotNull(true).LeftPosZ(176, 204).TopPosZ(24, 15))
+	ITEM(Switch, player2Type, SetLabel(t_("Human\nAI")).LeftPosZ(176, 204).TopPosZ(113, 15))
+	ITEM(Switch, player1Type, SetLabel(t_("Human\nAI")).LeftPosZ(176, 204).TopPosZ(85, 15))
+	ITEM(Label, dv___4, SetLabel(t_("Player 1")).LeftPosZ(16, 152).TopPosZ(86, 13))
+	ITEM(Label, dv___5, SetLabel(t_("Player 2")).LeftPosZ(16, 152).TopPosZ(114, 13))
+	ITEM(Label, dv___6, SetLabel(t_("Half of height")).LeftPosZ(16, 152).TopPosZ(54, 13))
+	ITEM(Label, dv___7, SetLabel(t_("Half of width")).LeftPosZ(16, 152).TopPosZ(25, 13))
+	ITEM(Button, cancel, SetLabel(t_("Cancel")).LeftPosZ(248, 120).TopPosZ(156, 23))
+	ITEM(Button, ok, SetLabel(t_("OK")).LeftPosZ(32, 120).TopPosZ(156, 23))
+END_LAYOUT
+

@@ -1,0 +1,19 @@
+uses
+	CtrlLib;
+
+file
+	Football.t,
+	Game.cpp,
+	Game.h,
+	FootballCtrl.cpp,
+	FootballCtrl.h,
+	AI.cpp,
+	AI.h,
+	GameProperties.h,
+	Football.h,
+	main.cpp,
+	Football.lay;
+
+mainconfig
+	"" = "GUI MT SSE2";
+

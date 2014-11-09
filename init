@@ -1,0 +1,4 @@
+#ifndef _Football_icpp_init_stub
+#define _Football_icpp_init_stub
+#include "CtrlLib/init"
+#endif
